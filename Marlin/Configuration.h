@@ -690,7 +690,7 @@
  *
  * :[2,3,4,5,6,7]
  */
-//#define ENDSTOP_NOISE_THRESHOLD 2
+#define ENDSTOP_NOISE_THRESHOLD 2
 
 //=============================================================================
 //============================== Movement Settings ============================
@@ -933,7 +933,7 @@
 #define Z_PROBE_SPEED_FAST HOMING_FEEDRATE_Z
 
 // Feedrate (mm/m) for the "accurate" probe of each point
-#define Z_PROBE_SPEED_SLOW (Z_PROBE_SPEED_FAST / 2)
+#define Z_PROBE_SPEED_SLOW (Z_PROBE_SPEED_FAST / 4)
 
 /**
  * Multiple Probing
